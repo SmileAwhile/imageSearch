@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<header>
+<title>Image Search</title>
+</header>
+<body style="background-color: #e0d09e">
+<div style="margin: 100px">
+  <h1>ImageSearch</h1>
+  <h2>Instructions:</h2>
+  <h3>Enter search term in /imgsearch/ path and get image search results<br/>
+    Add ?offset=[number] to paginate through search results<br/>
+    Or navigate to /latest/ to see latest search terms<br/><br/></h3>
+  <h2>Example search:</h4>
+  <p><tt style="background: #f6d0db">https://imsearc.herokuapp.com/imgsearch/steve?offset=2</tt></p>
+  <h2>Example search output:</h2>
+  <p><tt style="background: #f6d0db">[{"imgurl":"http://www.ips-dc.org/wp-content/uploads/2014/04/Steve-Cobble.jpg","snippet":"Steve Cobble","pageurl":"http://www.ips-dc.org/authors/steve-cobble/"}, {...}]</tt></p>
+  <h2>latest example:</h4>
+  <p><tt style="background: #f6d0db">https://imsearc.herokuapp.com/latest/</tt></p>
+  <h2>latest result example:</h4>
+  <p><tt style="background: #f6d0db">[{"_id":"578548ec8f4093087951ba41","searchterm":"steve","date":"2016-07-12T19:45:47.844Z"}, {...}]</tt></p>
+</div>
+</body>
+</html>
